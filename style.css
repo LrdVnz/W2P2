@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+i {
+  font-size: 20px; 
+}
+
+/* Navbar superiore */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 70px; 
+    border-bottom :  1px solid rgb(105, 105, 105); 
+    box-shadow: 0px 10px rgb(105, 105, 105);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-menu > * {
+    margin: 15px; 
+}
+
+#membership {
+    border: solid 2px black;
+    border-radius: 20px; 
+    padding: 8px; 
+}
+
+#user-pic {
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 12px; 
+}
