@@ -144,6 +144,8 @@ i {
    height: 80%;
 }
 
+/* twitter 'ad' */
+
 .twitter-ad {
     display: flex;
     flex-direction: column;
@@ -190,3 +192,39 @@ i {
     align-items: center;
 }
 
+/* recommended topics */
+
+.side.recommended-topics{
+    width: 75%;
+    height: 15%;
+}
+
+#topics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#topics > * {
+    font-size: 20px; 
+    margin: 15px; 
+    padding: 10px; 
+    background-color: rgb(150, 142, 132);
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+/* who to follow */ 
+
+.author-tab {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+
+#follow-title {
+    margin-bottom: 10px; 
+}
+
+.side.who-follow > * {
+    margin-bottom: 30px;
+}
