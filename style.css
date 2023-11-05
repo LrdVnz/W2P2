@@ -161,6 +161,7 @@ i {
 
 .twitter-ad {
     border-bottom: 1px solid #d7d7d7; 
+    align-items: center;
 }
 
 .twitter-logos {
@@ -186,6 +187,10 @@ i {
     vertical-align: middle;
 }
 
+#dismiss{
+    color: #8f8f8f;
+}
+
 .connect {
     border: solid 1px #8f8f8f; 
     padding: 10px 40px; 
@@ -195,9 +200,8 @@ i {
 .side {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 5px 50px;
     padding-bottom: 30px; 
-   /* align-items: center;*/
 }
 
 /* recommended topics */
@@ -205,6 +209,7 @@ i {
 .side.recommended-topics{
     width: 80%;
     height: 15%;
+    margin-top: 20px; 
 }
 
 .side.recommended-topics h3 {
@@ -239,7 +244,7 @@ i {
 }
 
 .side.who-follow > * {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .author-presentation {
@@ -276,4 +281,5 @@ i {
 
 #see-all {
     margin: 10px;
+    color: rgb(20, 148, 20);
 }
