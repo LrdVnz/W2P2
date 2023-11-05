@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(211, 211, 211);
+    background-color: #ffffff;
 }
 
 i {
@@ -89,7 +89,7 @@ i {
 
 .fa-solid.fa-user {
     background-color: aliceblue;
-    padding: 8px; 
+    padding: 10px; 
     border-radius: 50%; 
 }
 /*Preview text*/ 
@@ -136,21 +136,17 @@ i {
 /* sidebar */ 
 
 .content-side{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   width: 35%;
-   height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 80%;
+    margin: 10px auto;
 }
 
 /* twitter 'ad' */
 
 .twitter-ad {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-    padding-bottom: 30px; 
-    align-items: center;
     border-bottom: 2px solid black; 
 }
 
@@ -194,7 +190,7 @@ i {
 /* recommended topics */
 
 .side.recommended-topics{
-    width: 75%;
+    width: 80%;
     height: 15%;
 }
 
@@ -251,4 +247,10 @@ i {
 .side.sidebar-bottom {
     display: flex; 
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sidebar-bottom > * {
+    width: 70px;
+    height: 30px;
 }
