@@ -15,12 +15,14 @@ i {
 /* Navbar superiore */
 
 .navbar {
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding: 10px 70px; 
-    border-bottom :  1px solid rgb(105, 105, 105); 
-    box-shadow: 0px 10px rgb(105, 105, 105);
+    box-shadow: 0px 4px 11px 0px rgb(223 220 220);
+    background-color: white;
 }
 
 .logo {
@@ -30,14 +32,20 @@ i {
 
 .logo img {
     width: 100%;
+    vertical-align: middle;
 }
 
 .nav-menu > * {
     margin: 15px; 
+    vertical-align: middle;
+}
+
+.navbar > i {
+    color: #5e5e5e;
 }
 
 #membership {
-    border: solid 2px black;
+    border: solid 1px #8f8f8f;
     border-radius: 20px; 
     padding: 8px; 
 }
@@ -57,12 +65,12 @@ i {
 
 .content-top {
     padding: 30px 0; 
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #d7d7d7;
 }
 
 .content-main {
     width: 65%; 
-    border-right: solid 2px black;
+    border-right: solid 1px #d7d7d7;
     padding-right: 30px; 
     padding-top: 30px; 
 }
@@ -71,6 +79,7 @@ i {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    height: 10%;
 }
 
 #following {
@@ -123,7 +132,7 @@ i {
 /* Article image */
 
 #article-pic {
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 
@@ -147,7 +156,7 @@ i {
 /* twitter 'ad' */
 
 .twitter-ad {
-    border-bottom: 2px solid black; 
+    border-bottom: 1px solid #d7d7d7; 
 }
 
 .twitter-logos {
@@ -174,8 +183,8 @@ i {
 }
 
 .connect {
-    border: solid 2px black; 
-    padding: 10px 20px; 
+    border: solid 1px #8f8f8f; 
+    padding: 10px 40px; 
     border-radius: 30px;
 }
 
@@ -184,7 +193,7 @@ i {
     flex-direction: column;
     margin: 50px;
     padding-bottom: 30px; 
-    align-items: center;
+   /* align-items: center;*/
 }
 
 /* recommended topics */
@@ -192,6 +201,10 @@ i {
 .side.recommended-topics{
     width: 80%;
     height: 15%;
+}
+
+.side.recommended-topics h3 {
+    align-self: flex-start;
 }
 
 #topics {
@@ -202,9 +215,9 @@ i {
 #topics > * {
     font-size: 20px; 
     margin: 15px; 
+    margin-left: 0px; 
     padding: 10px; 
-    background-color: rgb(150, 142, 132);
-    border: solid 2px black;
+    background-color: rgb(237 237 237);
     border-radius: 20px;
 }
 
@@ -213,22 +226,23 @@ i {
 .author-tab {
     display: flex;
     width: 75%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #follow-title {
     margin-bottom: 10px; 
+    width: 68%;
 }
 
 .side.who-follow > * {
     margin-bottom: 30px;
 }
 
-/* Recently Saved tab */ 
-
-.saved-tab {
-    margin: 20px; 
+.author-presentation {
+    margin-right: 40px; 
 }
+
+/* Recently Saved tab */ 
 
 .saved-tab > * {
     margin: 10px;
@@ -253,4 +267,8 @@ i {
 .sidebar-bottom > * {
     width: 70px;
     height: 30px;
+}
+
+#see-all {
+    margin: 10px;
 }
