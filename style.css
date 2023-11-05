@@ -87,12 +87,11 @@ i {
     margin-left: 5px; 
 }
 
-#author-pic {
+.fa-solid.fa-user {
     background-color: aliceblue;
     padding: 8px; 
     border-radius: 50%; 
 }
-
 /*Preview text*/ 
 
 .content-preview {
@@ -227,4 +226,29 @@ i {
 
 .side.who-follow > * {
     margin-bottom: 30px;
+}
+
+/* Recently Saved tab */ 
+
+.saved-tab {
+    margin: 20px; 
+}
+
+.saved-tab > * {
+    margin: 10px;
+}
+
+.saved-bottom > * {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.saved-user {
+    margin-right: 10px; 
+}
+
+.side.sidebar-bottom {
+    display: flex; 
+    flex-direction: row;
 }
